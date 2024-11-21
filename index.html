@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Store - Bible Bricks LEGO Sets</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        header a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.1em;
+        }
+
+        header a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            padding: 20px;
+            gap: 20px;
+        }
+
+        .product-card {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            width: 22%;
+            box-sizing: border-box;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .product-card img {
+            width: 100%;
+            height: auto;
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 10px;
+        }
+
+        .product-card h2 {
+            font-size: 1.2em;
+            color: #333;
+        }
+
+        .product-card p {
+            font-size: 1em;
+            color: #666;
+            margin: 10px 0;
+        }
+
+        .product-card .price {
+            font-size: 1.5em;
+            color: #333;
+            margin: 10px 0;
+        }
+
+        .product-card button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .product-card button:hover {
+            background-color: #218838;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <a href="#">Home</a>
+        <a href="#">Shop</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="#">Cart (0)</a>
+    </header>
+
+    <!-- Product Listing -->
+    <div class="container">
+        <!-- Product 1 -->
+        <div class="product-card">
+            <img src="product1.jpg" alt="Bible Bricks Set 1">
+            <h2>Bible Bricks: Wilderness Tabernacle</h2>
+            <p>Bring the Old Testament to life with this beautifully designed wilderness tabernacle LEGO set. Perfect for builders and enthusiasts alike!</p>
+            <p class="price">$49.99</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product-card">
+            <img src="product2.jpg" alt="Bible Bricks Set 2">
+            <h2>Bible Bricks: Noah's Ark</h2>
+            <p>Recreate the biblical story of Noah with this amazing Noah's Ark LEGO set. Great for educational purposes and play!</p>
+            <p class="price">$39.99</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product-card">
+            <img src="product3.jpg" alt="Bible Bricks Set 3">
+            <h2>Bible Bricks: The Last Supper</h2>
+            <p>Celebrate the important moment of the Last Supper with this detailed LEGO set. Ideal for spiritual reflection and creativity!</p>
+            <p class="price">$59.99</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="product-card">
+            <img src="product4.jpg" alt="Bible Bricks Set 4">
+            <h2>Bible Bricks: The Ten Commandments</h2>
+            <p>Build the tablets of the Ten Commandments with this intricate and symbolic LEGO set. A must-have for collectors!</p>
+            <p class="price">$44.99</p>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Bible Bricks. All rights reserved.</p>
+        <p>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">FAQ</a>
+        </p>
+        <p>
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+        </p>
+    </footer>
+
+</body>
+</html>
